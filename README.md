@@ -7,7 +7,7 @@ activate pytorch
 conda install -y -c peterjc123 pytorch
 
 conda install ipykernel (Enrolled the pytorch in jupyter notebook.)
-
+python -m ipykernel install --user --name pytorch --display-name "PyTorch"
 ## flask install
 
 pip install flask
